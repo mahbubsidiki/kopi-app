@@ -1,8 +1,8 @@
-# ☕ Kopi App
+# Kopi App
 
 Kopi App adalah project website sederhana bertema **kasir kopi** yang dibuat untuk memenuhi tugas mata kuliah **Pemrograman Web Lanjut** kelas **4C**. Website ini dibuat sebagai simulasi sistem kasir pada kedai kopi untuk mempermudah proses pemesanan dan transaksi.
 
-## 🚀 Fitur
+## Fitur
 
 * Tampilan website sederhana dan modern
 * Daftar menu kopi
@@ -11,13 +11,13 @@ Kopi App adalah project website sederhana bertema **kasir kopi** yang dibuat unt
 * Responsive di desktop maupun mobile
 * Navigasi mudah dipahami
 
-## 🛠️ Teknologi yang Dipakai
+## Teknologi yang Dipakai
 
 * HTML
 * CSS
 * JavaScript
 
-## 📂 Struktur File
+## Struktur File
 
 ```bash id="4g1e0e"
 kopi-app/
@@ -27,7 +27,7 @@ kopi-app/
 └── assets/
 ```
 
-## ▶️ Cara Menjalankan
+## Cara Menjalankan
 
 1. Download atau clone repository ini
 
@@ -43,11 +43,11 @@ cd kopi-app
 
 3. Buka file `index.html` di browser
 
-## 🎯 Tujuan Pembuatan
+## Tujuan Pembuatan
 
 Project ini dibuat sebagai tugas kuliah untuk memahami pembuatan website interaktif dan menerapkan JavaScript dalam simulasi sistem kasir sederhana.
 
-## 👨‍💻 Pembuat
+## Pembuat
 
 Mahbub Shiddiqi
 Kelas 4C
