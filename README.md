@@ -52,6 +52,6 @@ Project ini dibuat sebagai tugas kuliah untuk memahami pembuatan website interak
 Mahbub Shiddiqi
 Kelas 4C
 
-## ⭐ Penutup
+## Penutup
 
 Terima kasih telah melihat project ini.
