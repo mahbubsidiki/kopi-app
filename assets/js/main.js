@@ -1,4 +1,4 @@
-// Kopi Nusantara — Main JS
+// Kopi Nusantara Pasuruan — Main JS
 
 // Hamburger menu toggle
 function toggleMenu() {

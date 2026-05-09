@@ -3,7 +3,7 @@
 <footer class="footer">
     <div class="container footer-inner">
         <div class="footer-brand">
-            <span class="logo-text" style="font-size:22px;">Kopi<em>Nusantara</em></span>
+            <span class="logo-text" style="font-size:22px;">Kopi <em>Nusantara Pasuruan</em></span>
             <p>Specialty coffee, disajikan dengan cinta.<br>Dari biji pilihan terbaik Nusantara.</p>
         </div>
         <div class="footer-links">
@@ -13,7 +13,7 @@
             <a href="/kopi-app/status-pesanan.php">Pesanan</a>
         </div>
         <div class="footer-copy">
-            <p>&copy; <?= date('Y') ?> Kopi Nusantara. Hak cipta dilindungi.</p>
+            <p>&copy; <?= date('Y') ?> Kopi Nusantara Pasuruan. Hak cipta dilindungi.</p>
         </div>
     </div>
 </footer>

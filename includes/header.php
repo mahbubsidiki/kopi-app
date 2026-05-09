@@ -14,7 +14,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kopi Nusantara — Specialty Coffee</title>
+    <title>Kopi Nusantara PASURUAN — Specialty Coffee</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
@@ -26,7 +26,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
     <div class="container navbar-inner">
         <a href="/kopi-app/" class="logo">
             <span class="logo-icon">☕</span>
-            <span class="logo-text">Kopi<em>Nusantara</em></span>
+            <span class="logo-text">Kopi <em>Nusantara Pasuruan</em></span>
         </a>
         <ul class="nav-links">
             <li><a href="/kopi-app/" class="<?= $current_page === 'index.php' ? 'active' : '' ?>">Beranda</a></li>

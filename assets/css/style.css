@@ -1,6 +1,6 @@
-/* ===================================================
-   KOPI NUSANTARA — Elegant Specialty Coffee Theme
-   =================================================== */
+/* 
+KOPI NUSANTARA PASURUAN 
+*/
 
 :root {
     --espresso:    #1A0F07;
@@ -121,7 +121,7 @@ body {
 }
 
 .nav-links a:hover,
-.nav-links a.active {
+.nav-links a.active { 
     color: var(--foam);
     background: rgba(212, 165, 116, 0.12);
 }
@@ -149,7 +149,7 @@ body {
 }
 
 .btn-nav-login {
-    background: var(--gold) !important;
+    background: var(--gold) !important; /*important prioritas*/
     color: var(--espresso) !important;
     padding: 8px 20px !important;
     border-radius: var(--radius-xl) !important;
