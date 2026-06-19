@@ -8,12 +8,11 @@ if ($_SERVER['HTTP_HOST'] === 'localhost' || $_SERVER['HTTP_HOST'] === '127.0.0.
     define('DB_USER', 'root');
     define('DB_PASS', '');        // Kosongkan untuk XAMPP default
     define('DB_NAME', 'kopi_db');
-} else {
     // Konfigurasi untuk Hosting Online (Sesuaikan dengan data dari InfinityFree)
-    define('DB_HOST', 'sqlxxx.infinityfree.com'); // Ganti dengan MySQL Hostname dari InfinityFree
-    define('DB_USER', 'epiz_xxx');                // Ganti dengan MySQL Username dari InfinityFree
-    define('DB_PASS', 'password_anda');           // Ganti dengan MySQL Password dari InfinityFree
-    define('DB_NAME', 'epiz_xxx_kopi_db');         // Ganti dengan Nama Database dari InfinityFree
+    define('DB_HOST', 'sql304.infinityfree.com'); // MySQL Hostname dari InfinityFree
+    define('DB_USER', 'if0_42220566');            // MySQL Username dari InfinityFree
+    define('DB_PASS', 'Diqi190703');              // MySQL Password dari InfinityFree
+    define('DB_NAME', 'if0_42220566_kopi_db');     // Nama Database dari InfinityFree
 }
 
 $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
