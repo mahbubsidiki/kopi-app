@@ -13,7 +13,7 @@
             <a href="/kopi-app/status-pesanan.php">Pesanan</a>
         </div>
         <div class="footer-copy">
-            <p>&copy; <?= date('Y') ?> Kopi Nusantara Pasuruan. Hak cipta dilindungi.</p>
+            <p>&copy; <?= date('Y') ?> M.Mahbub Shiddiqi. Hak cipta dilindungi.</p>
         </div>
     </div>
 </footer>
