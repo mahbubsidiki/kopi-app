@@ -8,6 +8,7 @@ if ($_SERVER['HTTP_HOST'] === 'localhost' || $_SERVER['HTTP_HOST'] === '127.0.0.
     define('DB_USER', 'root');
     define('DB_PASS', '');        // Kosongkan untuk XAMPP default
     define('DB_NAME', 'kopi_db');
+} else {
     // Konfigurasi untuk Hosting Online (Sesuaikan dengan data dari InfinityFree)
     define('DB_HOST', 'sql304.infinityfree.com'); // MySQL Hostname dari InfinityFree
     define('DB_USER', 'if0_42220566');            // MySQL Username dari InfinityFree
