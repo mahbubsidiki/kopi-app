@@ -3,11 +3,11 @@
 -- Cara pakai: Import file ini di phpMyAdmin → tab SQL → klik Go
 -- ============================================================
 
-CREATE DATABASE IF NOT EXISTS kopi_db
-  CHARACTER SET utf8mb4
-  COLLATE utf8mb4_general_ci;
-
-USE kopi_db;
+-- CREATE DATABASE IF NOT EXISTS kopi_db
+--   CHARACTER SET utf8mb4
+--   COLLATE utf8mb4_general_ci;
+-- 
+-- USE kopi_db;
 
 -- Tabel users
 CREATE TABLE IF NOT EXISTS users (
