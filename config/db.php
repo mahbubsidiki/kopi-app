@@ -1,11 +1,20 @@
 <?php
 // ================================================
-// KONFIGURASI DATABASE - SESUAIKAN JIKA PERLU
+// KONFIGURASI DATABASE - AUTO DETECT LOCALHOST / HOSTING
 // ================================================
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');        // Kosongkan untuk XAMPP default
-define('DB_NAME', 'kopi_db');
+if ($_SERVER['HTTP_HOST'] === 'localhost' || $_SERVER['HTTP_HOST'] === '127.0.0.1' || strpos($_SERVER['HTTP_HOST'], 'localhost:') === 0) {
+    // Konfigurasi untuk XAMPP Lokal
+    define('DB_HOST', 'localhost');
+    define('DB_USER', 'root');
+    define('DB_PASS', '');        // Kosongkan untuk XAMPP default
+    define('DB_NAME', 'kopi_db');
+} else {
+    // Konfigurasi untuk Hosting Online (Sesuaikan dengan data dari InfinityFree)
+    define('DB_HOST', 'sqlxxx.infinityfree.com'); // Ganti dengan MySQL Hostname dari InfinityFree
+    define('DB_USER', 'epiz_xxx');                // Ganti dengan MySQL Username dari InfinityFree
+    define('DB_PASS', 'password_anda');           // Ganti dengan MySQL Password dari InfinityFree
+    define('DB_NAME', 'epiz_xxx_kopi_db');         // Ganti dengan Nama Database dari InfinityFree
+}
 
 $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
@@ -14,9 +23,8 @@ if ($conn->connect_error) {
         <strong>⚠ Koneksi Database Gagal</strong><br><br>
         Pesan Error: " . $conn->connect_error . "<br><br>
         <strong>Solusi:</strong><br>
-        1. Pastikan XAMPP sudah berjalan (Apache & MySQL hijau)<br>
-        2. Pastikan database <code>kopi_db</code> sudah dibuat di phpMyAdmin<br>
-        3. Import file <code>database.sql</code> ke phpMyAdmin
+        1. Pastikan XAMPP/MySQL sudah berjalan jika di lokal.<br>
+        2. Jika di Hosting, pastikan konfigurasi host, user, password, dan db name di <code>config/db.php</code> sudah benar.
     </div>");
 }
 
